@@ -1,11 +1,11 @@
-import { Welcome } from '../components/Welcome/Welcome';
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
+import { Marketting } from '../ui/layouts/Marketting';
 
-export default function HomePage() {
-  return (
-    <>
-      <Welcome />
-      <ColorSchemeToggle />
-    </>
-  );
+function HomePage() {
+  return <>أهلا</>;
 }
+
+export default () => (
+  <Marketting>
+    <HomePage />
+  </Marketting>
+);
